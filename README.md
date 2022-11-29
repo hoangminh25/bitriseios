@@ -4,7 +4,7 @@
 
 This is a sample iOS project that demonstrates a [Bitrise](https://bitrise.io) CI/CD setup using [Cocoapods](https://cocoapods.org/). Build history is publicly available [here](https://app.bitrise.io/app/de773fd163744fb1#/builds).
 
-## Project setup and config
+### Project setup and config
 
 This is a Cocoapods based sample iOS project which runs unit and UI tests on both simulator and device. Currently there are 2 available workflows for this app:
 
