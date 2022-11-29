@@ -25,7 +25,7 @@ class Bitrise_iOS_Cocoapods_SampleTests: XCTestCase {
         let value = "https://example.com?abc=123&lmn=tuv&xyz=987"
         
         let newValue = self.webHelper.addOrUpdateQueryStringParameter(url: value, key: "aBc", value: "555")
-        let expectedValue = "https://example.com?aBc=555&lmn=tuv&xyz=987"
+        let expectedValue = "https://example.com?aBc=556&lmn=tuv&xyz=987"
         
         XCTAssertEqual(newValue, expectedValue, "String should be \(expectedValue)")
     }
